@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+	  <div class="container">
+
+      <form action="https://formspree.io/f/xqknywpe" method="POST" id="my-form">
+
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<label for="name">Your Name</label>
+				<input type="text" class="field" id="name" name="name" placeholder="John Smith"required>
+				<label for="email">Your Email</label>
+				<input type="text" class="field" id="name" name="email" placeholder="smith.john98@gmail.com"required>
+				<label for="phone">Your Number</label>
+				<input type="tel" class="field" id="phone" name="phone"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"required> 
+				<textarea placeholder="Type your message here!" class="field"required></textarea>
+
+				
+				<!--<label>Your email:<input type="email" name="email"></label>
+
+			    <label>Your Name:<input type="text" name="Your Name"></label>
+
+				<label>Your phone:<input type="text" name="phone number"></label>
+
+ 				<label>Your message:<textarea name="message"></textarea></label>-->
+
+  				<!--<button type="submit">Send</button>-->
+				<button class="btn">Send</button>
+			</div>
+		</div>
+
+	  </form>
+
+	</div>
+ </body>
+</html>
